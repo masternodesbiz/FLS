@@ -380,6 +380,7 @@ static const CRPCCommand vRPCCommands[] =
         {"flits", "mnsync", &mnsync, true },
         {"flits", "spork", &spork, true },
         {"flits", "mnping", &mnping, true },
+        {"flits", "getcollateral", &getcollateral, true},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
